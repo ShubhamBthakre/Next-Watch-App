@@ -33,12 +33,14 @@ export const IconButton = styled.button`
   border: none;
   margin-left: 5px;
   margin-right: 5px;
+  cursor: pointer;
 `
 
 export const CloseButton = styled.div`
   align-self: flex-end;
   margin-top: 10px;
   margin-right: 10px;
+  cursor: pointer;
 `
 export const LogoutPopupContent = styled.div`
   background-color: ${props =>
@@ -66,11 +68,13 @@ export const Button = styled.button`
   border-radius: 5px;
   outline: none;
   border: 1px solid #3b82f6;
+  cursor: pointer;
 `
 export const ProfileIcon = styled.img`
   width: 25px;
   margin-left: 15px;
   margin-right: 15px;
+  cursor: pointer;
 `
 export const NavLargeIcons = styled.div`
   display: flex;
@@ -84,6 +88,7 @@ export const LargeLogoutButton = styled(Button)`
   height: 25px;
   color: ${props => (props.theme === 'dark' ? '#f9f9f9' : '#3b82f6')};
   border-color: ${props => (props.theme === 'dark' ? '#f9f9f9' : '#3b82f6')};
+  cursor: pointer;
 `
 export const MenuPopupMobile = styled.div`
   display: flex;

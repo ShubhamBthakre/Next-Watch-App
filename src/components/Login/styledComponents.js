@@ -61,6 +61,7 @@ export const Form = styled.form`
 `
 export const ShowPasswordLabel = styled.label`
   color: ${props => (props.theme === 'dark' ? 'white' : 'black')};
+  cursor: pointer;
 `
 
 export const LoginButton = styled.button`
@@ -74,6 +75,7 @@ export const LoginButton = styled.button`
   font-weight: 500;
   font-family: Roboto;
   font-size: 15px;
+  cursor: pointer;
 `
 export const ErrorMsg = styled.p`
   color: #ff0000;
@@ -81,4 +83,8 @@ export const ErrorMsg = styled.p`
   font-size: 14px;
   padding-top: 6px;
   font-weight: 400;
+`
+
+export const UserIdAndPasswordContainer = styled.div`
+  align-self: flex-end;
 `

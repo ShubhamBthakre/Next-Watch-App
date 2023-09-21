@@ -13,6 +13,7 @@ import {
   ShowPasswordLabel,
   LoginButton,
   ErrorMsg,
+  UserIdAndPasswordContainer,
 } from './styledComponents'
 
 class Login extends Component {
@@ -127,6 +128,17 @@ class Login extends Component {
                   </div>
                   <ErrorMsg>{isError && `* ${errorMsg}`}</ErrorMsg>
                 </Form>
+                <UserIdAndPasswordContainer>
+                  <p>
+                    Username:rahul
+                    <br />
+                    Password:rahul@2021
+                    <br />
+                    <a href="https://github.com/ShubhamBthakre/Next-Watch-App.git">
+                      Code Source
+                    </a>
+                  </p>
+                </UserIdAndPasswordContainer>
               </LoginCardContainer>
             </LoginContainer>
           )

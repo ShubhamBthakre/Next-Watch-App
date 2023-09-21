@@ -131,6 +131,7 @@ export const RetryButton = styled.button`
   height: 30px;
   margin-top: 10px;
   border-radius: 5px;
+  cursor: pointer;
 `
 
 export const NoVideosContainer = styled(FailureContainer)``
